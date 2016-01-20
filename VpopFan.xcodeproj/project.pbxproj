@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB21D1851C4F743C00F98D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21D1841C4F743C00F98D55 /* AppDelegate.swift */; };
+		AB21D1871C4F743C00F98D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21D1861C4F743C00F98D55 /* ViewController.swift */; };
+		AB21D18A1C4F743C00F98D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB21D1881C4F743C00F98D55 /* Main.storyboard */; };
+		AB21D18C1C4F743C00F98D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB21D18B1C4F743C00F98D55 /* Assets.xcassets */; };
+		AB21D18F1C4F743C00F98D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB21D18D1C4F743C00F98D55 /* LaunchScreen.storyboard */; };
+		AB21D19A1C4F743C00F98D55 /* VpopFanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21D1991C4F743C00F98D55 /* VpopFanTests.swift */; };
+		AB21D1A51C4F743C00F98D55 /* VpopFanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21D1A41C4F743C00F98D55 /* VpopFanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB21D1961C4F743C00F98D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB21D1791C4F743C00F98D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB21D1801C4F743C00F98D55;
+			remoteInfo = VpopFan;
+		};
+		AB21D1A11C4F743C00F98D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB21D1791C4F743C00F98D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB21D1801C4F743C00F98D55;
+			remoteInfo = VpopFan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB21D1811C4F743C00F98D55 /* VpopFan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VpopFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB21D1841C4F743C00F98D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB21D1861C4F743C00F98D55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB21D1891C4F743C00F98D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB21D18B1C4F743C00F98D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB21D18E1C4F743C00F98D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB21D1901C4F743C00F98D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB21D1951C4F743C00F98D55 /* VpopFanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VpopFanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB21D1991C4F743C00F98D55 /* VpopFanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpopFanTests.swift; sourceTree = "<group>"; };
+		AB21D19B1C4F743C00F98D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB21D1A01C4F743C00F98D55 /* VpopFanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VpopFanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB21D1A41C4F743C00F98D55 /* VpopFanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpopFanUITests.swift; sourceTree = "<group>"; };
+		AB21D1A61C4F743C00F98D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB21D17E1C4F743C00F98D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB21D1921C4F743C00F98D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB21D19D1C4F743C00F98D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB21D1781C4F743C00F98D55 = {
+			isa = PBXGroup;
+			children = (
+				AB21D1831C4F743C00F98D55 /* VpopFan */,
+				AB21D1981C4F743C00F98D55 /* VpopFanTests */,
+				AB21D1A31C4F743C00F98D55 /* VpopFanUITests */,
+				AB21D1821C4F743C00F98D55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB21D1821C4F743C00F98D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB21D1811C4F743C00F98D55 /* VpopFan.app */,
+				AB21D1951C4F743C00F98D55 /* VpopFanTests.xctest */,
+				AB21D1A01C4F743C00F98D55 /* VpopFanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB21D1831C4F743C00F98D55 /* VpopFan */ = {
+			isa = PBXGroup;
+			children = (
+				AB21D1841C4F743C00F98D55 /* AppDelegate.swift */,
+				AB21D1861C4F743C00F98D55 /* ViewController.swift */,
+				AB21D1881C4F743C00F98D55 /* Main.storyboard */,
+				AB21D18B1C4F743C00F98D55 /* Assets.xcassets */,
+				AB21D18D1C4F743C00F98D55 /* LaunchScreen.storyboard */,
+				AB21D1901C4F743C00F98D55 /* Info.plist */,
+			);
+			path = VpopFan;
+			sourceTree = "<group>";
+		};
+		AB21D1981C4F743C00F98D55 /* VpopFanTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB21D1991C4F743C00F98D55 /* VpopFanTests.swift */,
+				AB21D19B1C4F743C00F98D55 /* Info.plist */,
+			);
+			path = VpopFanTests;
+			sourceTree = "<group>";
+		};
+		AB21D1A31C4F743C00F98D55 /* VpopFanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB21D1A41C4F743C00F98D55 /* VpopFanUITests.swift */,
+				AB21D1A61C4F743C00F98D55 /* Info.plist */,
+			);
+			path = VpopFanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB21D1801C4F743C00F98D55 /* VpopFan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB21D1A91C4F743C00F98D55 /* Build configuration list for PBXNativeTarget "VpopFan" */;
+			buildPhases = (
+				AB21D17D1C4F743C00F98D55 /* Sources */,
+				AB21D17E1C4F743C00F98D55 /* Frameworks */,
+				AB21D17F1C4F743C00F98D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VpopFan;
+			productName = VpopFan;
+			productReference = AB21D1811C4F743C00F98D55 /* VpopFan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB21D1941C4F743C00F98D55 /* VpopFanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB21D1AC1C4F743C00F98D55 /* Build configuration list for PBXNativeTarget "VpopFanTests" */;
+			buildPhases = (
+				AB21D1911C4F743C00F98D55 /* Sources */,
+				AB21D1921C4F743C00F98D55 /* Frameworks */,
+				AB21D1931C4F743C00F98D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB21D1971C4F743C00F98D55 /* PBXTargetDependency */,
+			);
+			name = VpopFanTests;
+			productName = VpopFanTests;
+			productReference = AB21D1951C4F743C00F98D55 /* VpopFanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB21D19F1C4F743C00F98D55 /* VpopFanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB21D1AF1C4F743C00F98D55 /* Build configuration list for PBXNativeTarget "VpopFanUITests" */;
+			buildPhases = (
+				AB21D19C1C4F743C00F98D55 /* Sources */,
+				AB21D19D1C4F743C00F98D55 /* Frameworks */,
+				AB21D19E1C4F743C00F98D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB21D1A21C4F743C00F98D55 /* PBXTargetDependency */,
+			);
+			name = VpopFanUITests;
+			productName = VpopFanUITests;
+			productReference = AB21D1A01C4F743C00F98D55 /* VpopFanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB21D1791C4F743C00F98D55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "VuDo Solutions";
+				TargetAttributes = {
+					AB21D1801C4F743C00F98D55 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AB21D1941C4F743C00F98D55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB21D1801C4F743C00F98D55;
+					};
+					AB21D19F1C4F743C00F98D55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB21D1801C4F743C00F98D55;
+					};
+				};
+			};
+			buildConfigurationList = AB21D17C1C4F743C00F98D55 /* Build configuration list for PBXProject "VpopFan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB21D1781C4F743C00F98D55;
+			productRefGroup = AB21D1821C4F743C00F98D55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB21D1801C4F743C00F98D55 /* VpopFan */,
+				AB21D1941C4F743C00F98D55 /* VpopFanTests */,
+				AB21D19F1C4F743C00F98D55 /* VpopFanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB21D17F1C4F743C00F98D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB21D18F1C4F743C00F98D55 /* LaunchScreen.storyboard in Resources */,
+				AB21D18C1C4F743C00F98D55 /* Assets.xcassets in Resources */,
+				AB21D18A1C4F743C00F98D55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB21D1931C4F743C00F98D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB21D19E1C4F743C00F98D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB21D17D1C4F743C00F98D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB21D1871C4F743C00F98D55 /* ViewController.swift in Sources */,
+				AB21D1851C4F743C00F98D55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB21D1911C4F743C00F98D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB21D19A1C4F743C00F98D55 /* VpopFanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB21D19C1C4F743C00F98D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB21D1A51C4F743C00F98D55 /* VpopFanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB21D1971C4F743C00F98D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB21D1801C4F743C00F98D55 /* VpopFan */;
+			targetProxy = AB21D1961C4F743C00F98D55 /* PBXContainerItemProxy */;
+		};
+		AB21D1A21C4F743C00F98D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB21D1801C4F743C00F98D55 /* VpopFan */;
+			targetProxy = AB21D1A11C4F743C00F98D55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB21D1881C4F743C00F98D55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB21D1891C4F743C00F98D55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB21D18D1C4F743C00F98D55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB21D18E1C4F743C00F98D55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB21D1A71C4F743C00F98D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB21D1A81C4F743C00F98D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB21D1AA1C4F743C00F98D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VpopFan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vudo.VpopFan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB21D1AB1C4F743C00F98D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VpopFan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vudo.VpopFan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB21D1AD1C4F743C00F98D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VpopFanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vudo.VpopFanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VpopFan.app/VpopFan";
+			};
+			name = Debug;
+		};
+		AB21D1AE1C4F743C00F98D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VpopFanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vudo.VpopFanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VpopFan.app/VpopFan";
+			};
+			name = Release;
+		};
+		AB21D1B01C4F743C00F98D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VpopFanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vudo.VpopFanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VpopFan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB21D1B11C4F743C00F98D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VpopFanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vudo.VpopFanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VpopFan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB21D17C1C4F743C00F98D55 /* Build configuration list for PBXProject "VpopFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB21D1A71C4F743C00F98D55 /* Debug */,
+				AB21D1A81C4F743C00F98D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB21D1A91C4F743C00F98D55 /* Build configuration list for PBXNativeTarget "VpopFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB21D1AA1C4F743C00F98D55 /* Debug */,
+				AB21D1AB1C4F743C00F98D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB21D1AC1C4F743C00F98D55 /* Build configuration list for PBXNativeTarget "VpopFanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB21D1AD1C4F743C00F98D55 /* Debug */,
+				AB21D1AE1C4F743C00F98D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB21D1AF1C4F743C00F98D55 /* Build configuration list for PBXNativeTarget "VpopFanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB21D1B01C4F743C00F98D55 /* Debug */,
+				AB21D1B11C4F743C00F98D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB21D1791C4F743C00F98D55 /* Project object */;
+}
